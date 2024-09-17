@@ -2,7 +2,10 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return render(request, 'index.html')
+    return render(request, 'home.html')
+
+def food(request):
+    return render(request, 'food.html')
 
 def index(request):
     meals = [
