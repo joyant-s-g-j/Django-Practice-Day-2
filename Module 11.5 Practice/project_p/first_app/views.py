@@ -4,9 +4,6 @@ from django.shortcuts import render
 def home(request):
     return render(request, 'home.html')
 
-def food(request):
-    return render(request, 'food.html')
-
 def index(request):
     meals = [
         {
